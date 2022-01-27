@@ -43,6 +43,11 @@ const ItemText = styled.div`
     color: white;
     font-size: 20px;
 
+    @media (max-width: 767px) {
+        margin-top: 35vh;
+
+}
+
 `
 
 const Latestbtn = styled.div`

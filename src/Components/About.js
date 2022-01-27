@@ -39,8 +39,14 @@ p{
 }
 
 h2{ 
-    font-size: 4vw;
+    font-size: 2vw;
     
+}
+
+@media (max-width: 767px) {
+    h2{
+        font-size: 4vw;
+    }
 }
 
 `
@@ -54,12 +60,18 @@ const SkillBox = styled.div`
     align-items: center;
 
     h2{
-    font-size: 4vw;
+    font-size: 2vw;
     margin-top: 5vh;
     color: black;
 
     }
 
+    @media (max-width: 767px) {
+    h2{
+        font-size: 4vw;
+    }
+
+    }
 `
 
 

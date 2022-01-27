@@ -11,7 +11,8 @@ function Projects1() {
         speed: 500, 
         slidesToShow: 1, 
         slidesToScroll: 1, 
-        autoplay: true
+        autoplay: true,
+        variableWidth: false
         }
   return (
       <Container>
@@ -33,21 +34,36 @@ function Projects1() {
             <Wrap>
                 <img src="/images/previewWand.png" />
             </Wrap>
-  
+        
 </Carousel>
-
+        <SingleImg>
+        <img src="/images/groceryList.png"></img>
+        </SingleImg>
 </Container>
   )
 }
 
 const Container = styled.div`
+   
     margin-top: -50px;
-    background: linear-gradient(
+    /* background: linear-gradient(
     0deg
-    , rgba(255,255,255,1) 0%, rgba(121,9,77,1) 100%);
+    , rgba(255,255,255,1) 0%, rgba(121,9,77,1) 100%); */
+    background: rgb(158,49,177);
+background: linear-gradient(201deg, rgba(158,49,177,1) 19%, rgba(116,34,213,1) 60%, rgba(193,91,196,1) 94%);
+    h2{
+        padding-top: 20px;
+        margin-left: 10px;
+        font-size: 2vw;
+    }
+
+
+@media (max-width: 767px) {
     h2{
         font-size: 4vw;
     }
+
+}
 `
 
 const Carousel = styled(Slider)`
@@ -101,6 +117,15 @@ const Wrap = styled.div`
 const WrapText = styled.div`
 
 
+`
+
+const SingleImg = styled.div`
+    img{
+        height: 30%;
+        width: 30%;
+        margin-top: 50px;
+        margin-left: 10px;
+    }
 `
 
 export default Projects1;
