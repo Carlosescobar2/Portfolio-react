@@ -37,7 +37,7 @@ const RightMenu = styled.div`
      position: absolute;
     right: 0px;
     a{  
-        padding:0 30px ;
+        padding:0 30px 0px 5px;
         font-size: 30px;
         text-decoration: none;
         color: white;
