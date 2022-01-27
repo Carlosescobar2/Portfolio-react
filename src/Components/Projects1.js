@@ -53,7 +53,7 @@ const Container = styled.div`
 background: linear-gradient(201deg, rgba(158,49,177,1) 19%, rgba(116,34,213,1) 60%, rgba(193,91,196,1) 94%);
     h2{
         padding-top: 20px;
-        margin-left: 10px;
+        margin-left: 9px;
         font-size: 2vw;
     }
 
