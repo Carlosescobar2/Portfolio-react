@@ -3,13 +3,14 @@ import Header from './Components/Header';
 import Home from './Components/Home';
 import About from './Components/About';
 import Projects1 from './Components/Projects1';
+
 function App() {
   return (
     <div className="App">
     <Header />
     <Home />
     <About />
-    <Projects1 />
+    {/* <Projects1 /> */}
     </div>
   );
 }
